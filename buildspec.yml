@@ -23,6 +23,3 @@ phases:
     finalizing:
         commands:
             - echo "finalizing"
-    completed:
-        commands:
-            - echo "completed"
