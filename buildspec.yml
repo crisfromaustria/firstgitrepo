@@ -6,6 +6,8 @@ phases:
             nodejs: latest
         commands:
             - echo "installing something"
+            - java -version
+            - mvn --version
     pre_build:
         commands: 
             - echo "we are in the pre build phase"
